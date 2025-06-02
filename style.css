@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar, .header, .footer {
+  background-color: #1f2937;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.pasta-container h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.pasta-container .top-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.pasta-container .sign-up {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 6px 32px;
+  border: 5px #3882F6;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.popup .sign-up {
+  color: #e5e7eb;
+  padding: 6px 32px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  background-color: #3882f6;
+}
+
+.mid-boxes h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.container .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.container .quote-author {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.advertisement .popup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+/* Flex box */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar .nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  height: 100%;
+}
+
+.header .container {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid-boxes .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.mid-boxes .boxes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mid-boxes .box {
+  text-align: center;
+  max-width: 140px;
+  min-width: 136px;
+}
+
+.box-img {
+  width: 136px;
+  height: 136px;
+  border: 5px #3882F6 solid;
+  border-radius: 16px;
+}
+
+.quote .container {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+}
+
+.quote .quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 780px;
+  width: 100%;
+  height: 100%;
+}
+
+.quote-author {
+  align-self: end;
+}
+
+.advertisement .container {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.advertisement .popup {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-height: 120px;
+  max-width: 860px;
+  height: 100%;
+  width: 100%;
+  border: 2px #3882F6;
+  border-radius: 6px;
+}
+/* 
+.popup .text {
+  display: flex;
+  flex-direction: column;
+}
+ */
+
+.text .head {
+  font-weight: 900;
+}
+
+.footer .container {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}

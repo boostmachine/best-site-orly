@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome site</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="main-container">
-    <div class="header">
-      <header>Header Logo</header>
-      <ul class="right-links">
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Header Logo</div>
+      <ul class="nav">
         <li>
           <a href="https://google.com">header link one</a>
         </li>
@@ -22,59 +26,71 @@
         </li>
       </ul>
     </div>
-    <div class="top-container">
-      <h1>This website is Awesome</h1>
-      <p class="top-text">
-        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contras
-      </p>
-      <img class="top-image" src="./images/" alt="this is a placeholder for an image" width="650" height="400">
-      <button class="sign-up">Sign up</button>
-    </div>
-    <div class="mid-container">
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <div class="pasta-container">
+        <h1>This website is Awesome</h1>
+        <p class="top-text">
+        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+        </p>
+        <div class="buttons"><button class="sign-up">Sign up</button></div>
+        </div>
+      <img class="top-image" src="./images/image.png" alt="this is a placeholder for an image" width="524" height="240">
+  </header>
+
+  <section class="mid-boxes">
+    <div class="container">
       <h2>Some random information</h2>
-      <div class="mid-image-box">
-        <img class="mid-image" src="./images/" alt="sometext">
-        <p class="mid-text">
-          this is some subtext under an illustration or image
-        </p>
-      </div>
-      <div class="mid-image-box">
-        <img class="mid-image" src="./images/" alt="sometext">
-        <p class="mid-text">
-          this is some subtext under an illustration or image
-        </p>
-      </div>
-      <div class="mid-image-box">
-        <img class="mid-image" src="./images/" alt="sometext">
-        <p class="mid-text">
-          this is some subtext under an illustration or image
-        </p>
-      </div>
-      <div class="mid-image-box">
-        <img class="mid-image" src="./images/" alt="sometext">
-        <p class="mid-text">
-          this is some subtext under an illustration or image
-        </p>
+      <div class="boxes">
+        <div class="box">
+          <img class="box-img" src="./images/image.png" width="150" height="150">
+          <p class="box-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <img class="box-img" src="./images/image.png" width="150" height="150">
+          <p class="box-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <img class="box-img" src="./images/image.png" width="150" height="150">
+          <p class="box-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="box">
+          <img class="box-img" src="./images/image.png" width="150" height="150">
+          <p class="box-text">this is some subtext under an illustration or image</p>
+        </div>
       </div>
     </div>
-    <div class="quote-container">
-      <p class="quote">
+  </section>
+
+  <section class="quote">
+    <div class="container">
+      <div class="quote-container">
+        <div class="quote">
         This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-      </p>
-      <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+        <div class="quote-author">
+          -Thor, God of Thunder
+        </div>
+      </div>      
     </div>
-    <div class="sign-up-footer">
-      <p class="advertisement-head">
-        Call to action! It's time!
-      </p>
-      <p class="advertisement-body">
-        Sign up for our product by clicking that button right over there!
-      </p>
-      <button class="sign-up">Sign up</button>
+  </section>
+
+  <section class="advertisement">
+    <div class="container">
+      <div class="popup">
+        <div class="text">
+          <p class="head">Call to action! It's time!</p>
+          <p class="body">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="buttons"><button class="sign-up">Sign up</button></div>
+      </div>
     </div>
-    <footer>
-      <p>Copyright © Bivis Project 2021</p>
-    </footer>
-  </div>
+  </section>
+
+  <section class="footer">
+    <footer class="container">Copyright © Bivis Project 2021</footer>
+  </section>
 </body>
 </html>
